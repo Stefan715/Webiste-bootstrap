@@ -1,0 +1,112 @@
+body {
+}
+
+#hero {
+    background-image: url(imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#caption {
+    background-color: rgb(103, 196, 103);
+}
+#header a {
+    color: black;
+    margin-left: 20px;
+}
+
+#header a:visited {
+    color:black ;
+}
+#header a:hover {
+    color: gray;
+}
+h4 {
+    border-bottom: 2px solid rgb(192, 179, 179);
+}
+#footer {
+    background-color: rgb(56, 54, 54);
+}
+h3 {
+    color: white;
+}
+td {
+    color: rgb(201, 187, 187);
+}
+#photos {
+   
+}
+#icons {
+    
+}
+#tabels {
+    
+    color: rgb(156, 148, 148);
+}
+#footer2 {
+    background-color: black;
+    color: rgb(158, 147, 147);
+}
+th {
+    color:white ;
+    font-size: 20px;
+}
+@media (max-width:768px) {
+    #caption {
+        font-size: 20px;
+    }
+    #hero {
+        background-position: center;
+        height: 200px;
+    }
+    #menuicone {
+        position: relative;
+        right: 30px;
+    }
+}
+@media (min-width:769px) and (max-width:990px) {
+    #hero {
+        height: 500px;
+        background-size: contain;
+        margin-bottom: -150px;
+    }
+}
+@media (min-width: 991px) {
+    #hero {
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+    }
+}
+#menue {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: #312423ed;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+
+    display: none;
+}
+#menue a {
+    color: white;
+}
+#menue a:link,
+#menue a:visited {
+    color: white;
+}
+#menue a:hover {
+    color: gray;
+}
+#menueclose {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.herosection {
+    position: fixed;
+    background-color: rgba(92, 92, 128,0.5);
+}
